@@ -108,8 +108,6 @@ The linear coefficient is estimated analytically using least squares. The expone
 | Fitted linear | 0.2277 | 0.3074 |
 | Fitted exponential | **0.0199** | **0.0269** |
 
-
-![Datasheet-Based Model Fitting](mosfet_final_model_fitting.png)
 - Fitted linear coefficient: approximately **0.007673 K⁻¹**.
 - Fitted exponential coefficient: approximately **0.005550 K⁻¹**.
 - Fitted exponential model: **R(T) = 2.8 × (1.005550)^(T − 25) mΩ**.
@@ -195,4 +193,5 @@ Infineon Technologies, **IAUC100N08S5N034 Automotive Power MOSFET**:
 
 ---
 
-**Project status:** Work in progress — initial models, approximate datasheet-based curve fitting, and simplified steady-state electrothermal analysis implemented.
+
+**Project status:** Version 1.0 completed — MATLAB-based conduction loss analysis, approximate datasheet-based curve fitting, and simplified steady-state electrothermal simulation implemented. Further model validation and extensions are planned.
